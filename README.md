@@ -19,8 +19,8 @@
 2. 克隆项目：
 
 ```
-git clone https://github.com/your-username/your-blog-generator.git
-cd your-blog-generator
+git clone https://github.com/sgyunc/sgycblog.git
+cd sgycblog
 ```
 3. 安装依赖项：
 ```
