@@ -1,0 +1,124 @@
+/* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Add this to your style.css file or include it in the head of your HTML file */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+/* #nav */
+
+
+nav{position: fixed;top: 0;width: 100%;z-index: 1000; background-color:#333;color:#fff;padding:10px;display:flex;justify-content:space-between;align-items:center}
+nav h1{margin:0;font-size:15px}
+nav ul{list-style-type:none;margin:0;padding:0;display:flex}
+nav li{margin-right:15px;font-size:12px}
+nav a{text-decoration:none;color:#fff}
+nav input[type="text"]{padding:8px;font-size:14px}
+nav #searchContainer{display:flex;align-items:center}
+nav #searchInput {
+    padding: 8px;
+    border: none;
+    border-radius: 30px;
+    width: 60px;
+    margin-right: 20px;
+    margin-left: 10px;
+    height: 1px;
+}
+nav #searchResults{margin-left:10px}
+
+
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.content img {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%;
+    -webkit-transition: filter 375ms ease-in 0.2s;
+    -moz-transition: filter 375ms ease-in 0.2s;
+    -o-transition: filter 375ms ease-in 0.2s;
+    -ms-transition: filter 375ms ease-in 0.2s;
+    transition: filter 375ms ease-in 0.2s;
+    border-radius: 20px;
+    box-shadow: 2px 1px 8px 1px rgb(228, 232, 235);
+}
+/* 基本的代码块样式 */
+.content code {
+        background-color: #57be0c;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        overflow: auto;
+    }
+
+  
+  /* 语法高亮样式（可选） */
+  .content code span.keyword {
+    color: #0077cc;
+  }
+  
+  .content code span.comment {
+    color: #999;
+    font-style: italic;
+  }
+  
+  /* 添加更多的样式以适应您的需求 */
+  
+h2{color:#333;margin-top:20px}
+a{color:#007bff;text-decoration:none}
+p{margin-bottom:10px}
+.date{color:#888;font-size:14px}
+
+
+.link-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* 调整友链项之间的间距 */
+}
+
+.avatar {
+    margin-right: 10px; /* 调整头像和信息之间的间距 */
+}
+
+.avatar img {
+    width: 60px; /* 调整头像的宽度 */
+    height: 60px; /* 调整头像的高度 */
+    border-radius: 50%; /* 将头像设置为圆形 */
+}
+
+.info {
+    flex: 1; /* 让信息部分占据剩余的空间 */
+}
+
+h2 a {
+    color: #333; /* 设置链接的颜色 */
+    text-decoration: none; /* 去掉链接的下划线 */
+}
+
+p {
+    color: #666; /* 设置段落文字的颜色 */
+    margin-top: 5px; /* 调整段落与标题之间的间距 */
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

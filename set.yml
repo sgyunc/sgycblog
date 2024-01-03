@@ -1,0 +1,43 @@
+title: 上官云琛 #网站昵称
+header_title: 上官云琛 #头部昵称
+footer_text: 2023 #页脚时间
+footer_by: sg #页脚版权所有
+keywords: "blog, technology, coding" #关键字
+# meta标签
+meta_tags:
+  - '<meta name="viewport" content="width=device-width, initial-scale=1.0">'
+  - '<meta name="description" content="My personal blog about technology and coding">'
+  - '<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">'
+js:
+  - './ass/js/Search.js'
+
+
+css:
+  - './ass/css/style.css'
+
+footer_text: "SGYUNC"
+footer_by: "上官云琛"
+
+nav:
+  - name: 首页
+    link: index.html
+  - name: 分类
+    link: categories.html
+  - name: 归档
+    link: archive.html
+  - name: 友链
+    link: links.html
+
+
+
+# 示例 set.yml 文件的友链数据
+links:
+  - name: 朱朱白白🍓
+    link: https://blog.winboard.top/
+    avatar: https://thirdqq.qlogo.cn/g?b=sdk&k=8WAJeEibaC5UxP2VCXhhicTw&kti=Y51yFAAAAAA&s=140&t=1556520428
+    descr: 该说结束的人是我，但想结束的人却不是我
+  - name: 张洪Heo
+    link: https://blog.zhheo.com/
+    avatar: https://img.zhheo.com/i/2022/08/19/62ff32fa28da1.png
+    descr: 分享设计与科技生活
+  # 其他友链数据...
